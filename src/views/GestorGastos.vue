@@ -61,5 +61,9 @@ export default {
 <style>
 .gestor-de-gastos {margin: 4em 2em;}
 .home {margin: 2em 0;}
-img {margin: 3em 0;}
+img {margin: 3em 0;
+width: 100%;
+height: auto;
+}
+
 </style>

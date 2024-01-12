@@ -125,4 +125,46 @@ border: 1px solid #1800ec;}
 .error {
     color: #ac0000;
 }
+
+/* Media Query para Tablet y Móvil */
+@media screen and (max-width: 768px) { 
+  .form-container {
+    padding: 0;
+  }
+
+  footer {
+    padding: 2em;
+  }
+
+  table {
+    overflow-x: auto;
+}
+
+.container-total {
+    text-align: center;
+}
+
+th, td {
+    display: block;
+    width: 100%;
+    margin: 20px 0;
+}
+
+/* Ajustes específicos para cada columna si es necesario */
+th:nth-child(1), td:nth-child(1) {
+    text-align: left; /* Ajusta según sea necesario */
+}
+
+th:nth-child(2), td:nth-child(2) {
+    text-align: left; /* Ajusta según sea necesario */
+}
+
+th:nth-child(3), td:nth-child(3) {
+    text-align: left; /* Ajusta según sea necesario */
+}
+
+th:nth-child(4), td:nth-child(4) {
+    text-align: left; /* Ajusta según sea necesario */
+}
+}
 </style>

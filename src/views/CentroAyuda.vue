@@ -11,7 +11,7 @@
           <div class="search">
             <i class="fa fa-search"></i>
             <input type="text" class="form-control" placeholder="Encontra el articulo">
-            <button class="btn btn-primary">Buscar</button>
+            <button class="btn btn-primary boton">Buscar</button>
           </div> 
         </div>
       </div>
@@ -124,6 +124,7 @@
    height: 60px;
    text-indent: 25px;
    border: 2px solid #d6d4d4;
+   padding-left: 20px;
   }
 
   .search input:focus{
@@ -144,6 +145,10 @@
    height: 50px;
    width: 110px;
    background: #066bd1;
+  }
+
+  .boton {
+    margin: 0 auto;
   }
 
   /* ------ Main centro de ayuda ------ */
