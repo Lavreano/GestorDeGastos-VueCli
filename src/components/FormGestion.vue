@@ -166,5 +166,10 @@ th:nth-child(3), td:nth-child(3) {
 th:nth-child(4), td:nth-child(4) {
     text-align: left; /* Ajusta según sea necesario */
 }
+
+img {
+  width: 100%;
+  height: auto;
+}
 }
 </style>
