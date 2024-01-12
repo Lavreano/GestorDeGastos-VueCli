@@ -77,7 +77,7 @@ export default {
 
 <style>
 .body-container {
-  width: 80%;
+  width: 100%;
   margin:0 auto;
   margin-bottom: 4em;
     padding: 2em;
@@ -128,6 +128,7 @@ border: 1px solid #1800ec;}
 
 /* Media Query para Tablet y Móvil */
 @media screen and (max-width: 768px) { 
+
   .form-container {
     padding: 0;
   }
@@ -171,5 +172,6 @@ img {
   width: 100%;
   height: auto;
 }
+
 }
 </style>

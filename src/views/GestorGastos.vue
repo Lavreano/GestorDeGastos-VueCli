@@ -59,8 +59,13 @@ export default {
 </script>
 
 <style>
-.gestor-de-gastos {margin: 4em 2em;}
+.gestor-de-gastos {margin: 4em 10px;}
 .home {margin: 2em 0;}
 img {margin: 3em 0;}
 
+@media screen and (max-width: 480px) {
+  .gestor-de-gastos {
+    margin: 20px;
+  }
+  }
 </style>
